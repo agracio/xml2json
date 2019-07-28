@@ -1,6 +1,6 @@
 var fs = require('fs');
 var path = require('path');
-var parser = require('../lib');
+var parser = require('../src');
 var assert = require('assert');
 
 var expected = fs.readFileSync(__dirname + '/fixtures/xmlsanitize.xml', {encoding: 'utf8'});

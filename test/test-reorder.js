@@ -1,6 +1,6 @@
 var fs = require('fs');
 var path = require('path');
-var parser = require('../lib');
+var parser = require('../src');
 var assert = require('assert');
 
 var data = fs.readFileSync('./fixtures/reorder.json');

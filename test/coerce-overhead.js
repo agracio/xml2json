@@ -1,5 +1,5 @@
 var fs = require('fs');
-var parser = require('../lib');
+var parser = require('../src');
 
 var file = __dirname + '/fixtures/large.xml';
 

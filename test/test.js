@@ -1,6 +1,6 @@
 var fs = require('fs');
 var path = require('path');
-var parser = require(__dirname + '/../lib');
+var parser = require(__dirname + '/../src');
 var assert = require('assert');
 
 var Code = require('code');
