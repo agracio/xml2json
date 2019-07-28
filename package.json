@@ -1,23 +1,37 @@
 {
-  "name": "xml2json",
-  "version": "0.11.3",
-  "description": "Converts xml to json and vice-versa, using node-expat.",
-  "repository": "git://github.com/buglabs/node-xml2json.git",
-  "license": "MIT",
-  "main": "index",
-  "scripts": {
-    "test": "lab -a code -v -t 93 test/test.js"
-  },
-  "dependencies": {
-    "hoek": "^4.2.1",
-    "joi": "^13.1.2",
-    "node-expat": "^2.3.18"
-  },
-  "bin": {
-    "xml2json": "bin/xml2json"
-  },
-  "devDependencies": {
-    "code": "^3.0.2",
-    "lab": "^18.0.0"
-  }
+    "name": "p3x-xml2json",
+    "corifeus": {
+        "prefix": "p3x-",
+        "publish": true,
+        "type": "p3x",
+        "code": "Done",
+        "nodejs": "v12.7.0",
+        "opencollective": false,
+        "reponame": "xml2json",
+        "build": true
+    },
+    "version": "2019.10.102",
+    "description": "Converts xml to json and vice-versa, using node-expat.",
+    "repository": "git://github.com/buglabs/node-xml2json.git",
+    "license": "MIT",
+    "main": "index",
+    "scripts": {
+        "test": "lab -a code -v -t 93 test/test.js"
+    },
+    "dependencies": {
+        "hoek": "^4.2.1",
+        "joi": "^13.1.2",
+        "node-expat": "^2.3.18"
+    },
+    "bin": {
+        "p3x-xml2json": "bin/xml2json"
+    },
+    "devDependencies": {
+        "code": "^3.0.2",
+        "lab": "^18.0.0"
+    },
+    "engines": {
+        "node": ">=10.16.0"
+    },
+    "homepage": "https://pages.corifeus.com/xml2json"
 }

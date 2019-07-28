@@ -1,1 +1,6 @@
-{"subObject": {"propertyNotNull": "value","propertyNull":null}}
+{
+    "subObject": {
+        "propertyNotNull": "value",
+        "propertyNull": null
+    }
+}

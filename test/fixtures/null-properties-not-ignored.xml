@@ -1,1 +1,3 @@
-<subObject propertyNotNull="value"><propertyNull></propertyNull></subObject>
+<subObject propertyNotNull="value">
+    <propertyNull></propertyNull>
+</subObject>

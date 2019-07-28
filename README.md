@@ -1,6 +1,46 @@
+[//]: #@corifeus-header
+  
+[![NPM](https://nodei.co/npm/p3x-xml2json.png?downloads=true&downloadRank=true)](https://www.npmjs.com/package/p3x-xml2json/)
+
+  
+
+[![Donate for Corifeus / P3X](https://img.shields.io/badge/Donate-Corifeus-003087.svg)](https://paypal.me/patrikx3) [![Contact Corifeus / P3X](https://img.shields.io/badge/Contact-P3X-ff9900.svg)](https://www.patrikx3.com/en/front/contact) [![Corifeus @ Facebook](https://img.shields.io/badge/Facebook-Corifeus-3b5998.svg)](https://www.facebook.com/corifeus.software)  [![Build Status](https://api.travis-ci.com/patrikx3/xml2json.svg?branch=master)](https://travis-ci.com/patrikx3/xml2json) 
+[![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m780749701-41bcade28c1ea8154eda7cca.svg)](https://uptimerobot.patrikx3.com/)
+
+ 
+
+
+ 
+# Converts xml to json and vice-versa, using node-expat. v2019.10.102  
+
+  
+**Note about versioning:** Versions are cut in Major.Minor.Patch schema. Major is always the current year. Minor is either 4 (January - June) or 10 (July - December). Patch is incremental by every build. If there is a breaking change, it should be noted in the readme.
+
+**Bugs are evident™ - MATRIX️**  
+    
+
+### Node Version Requirement 
+``` 
+>=10.16.0 
+```  
+   
+### Built on Node 
+``` 
+v12.7.0
+```   
+   
+The ```async``` and ```await``` keywords are required.
+
+Install NodeJs:    
+https://nodejs.org/en/download/package-manager/    
+
+
+
+# Description  
+
+                        
+[//]: #@corifeus-header:end
 # Simple XML2JSON Parser
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/buglabs/node-xml2json?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Build Status](https://travis-ci.org/buglabs/node-xml2json.svg?branch=master)](https://travis-ci.org/buglabs/node-xml2json)
 
 It does not parse the following elements:
 
@@ -15,12 +55,12 @@ refer to its [documentation](https://github.com/astro/node-expat/blob/master/REA
 
 ## Installation
 ```
-$ npm install xml2json
+$ npm install p3x-xml2json
 ```
 
 ## Usage
 ```javascript
-var parser = require('xml2json');
+var parser = require('p3x-xml2json');
 
 var xml = "<foo attr=\"value\">bar</foo>";
 console.log("input -> %s", xml)
@@ -96,25 +136,33 @@ var options = {
 
 (*) xml2json tranforms CDATA content to JSON, but it doesn't generate a reversible structure.
 
-## License
-(The MIT License)
 
-Copyright (c) 2016 xml2json AUTHORS 
+[//]: #@corifeus-footer
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to
-deal in the Software without restriction, including without limitation the
-rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
-sell copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+---
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+🙏 This is an open-source project. Star this repository, if you like it, or even donate to maintain the servers and the development. Thank you so much!
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
-IN THE SOFTWARE.
+Possible, this server, rarely, is down, please, hang on for 15-30 minutes and the server will be back up.
+
+All my domains ([patrikx3.com](https://patrikx3.com) and [corifeus.com](https://corifeus.com)) could have minor errors, since I am developing in my free time. However, it is usually stable.
+  
+---
+  
+[**P3X-XML2JSON**](https://pages.corifeus.com/xml2json) Build v2019.10.102 
+
+[![Donate for Corifeus / P3X](https://img.shields.io/badge/Donate-Corifeus-003087.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QZVM4V6HVZJW6)  [![Contact Corifeus / P3X](https://img.shields.io/badge/Contact-P3X-ff9900.svg)](https://www.patrikx3.com/en/front/contact) [![Like Corifeus @ Facebook](https://img.shields.io/badge/LIKE-Corifeus-3b5998.svg)](https://www.facebook.com/corifeus.software) 
+
+
+## P3X Sponsors
+
+[IntelliJ - The most intelligent Java IDE](https://www.jetbrains.com/?from=patrikx3)
+  
+[![JetBrains](https://cdn.corifeus.com/assets/svg/jetbrains-logo.svg)](https://www.jetbrains.com/?from=patrikx3) [![NoSQLBooster](https://cdn.corifeus.com/assets/png/nosqlbooster-70x70.png)](https://www.nosqlbooster.com/)
+
+[The Smartest IDE for MongoDB](https://www.nosqlbooster.com)
+  
+  
+ 
+
+[//]: #@corifeus-footer:end
