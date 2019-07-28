@@ -8,7 +8,7 @@ var expected = fs.readFileSync(__dirname + '/fixtures/xmlsanitize.xml', {encodin
 var json = parser.toJson(expected, {object: true, space: true});
 //console.log('xml => json: \n%j', json);
 
-var xmlres = parser.toXml(json, {sanitize: true});
+var xmlres = parser.toXml(json, { sanitize: true });
 //console.log(xmlres)
 //assert.deepEqual(json.doc.Column.length, 5, 'should have 5 Columns');
 assert.strictEqual(expected, xmlres, 'xml strings not equal!')
