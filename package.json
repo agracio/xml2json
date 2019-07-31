@@ -10,7 +10,7 @@
         "reponame": "xml2json",
         "build": true
     },
-    "version": "2019.10.128",
+    "version": "2019.10.131",
     "description": "Converts xml to json and vice-versa, using node-expat.",
     "repository": "git://github.com/buglabs/node-xml2json.git",
     "license": "MIT",
@@ -28,7 +28,7 @@
     },
     "devDependencies": {
         "code": "^5.2.4",
-        "corifeus-builder": "^2019.10.127",
+        "corifeus-builder": "^2019.10.130",
         "lab": "^18.0.2"
     },
     "engines": {
