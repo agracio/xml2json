@@ -1,7 +1,7 @@
 var expat = require('node-expat');
 var sanitizer = require('./sanitize.js')
-var joi = require('joi');
-var hoek = require('hoek');
+var joi = require('@hapi/joi');
+var hoek = require('@hapi/hoek');
 
 // This object will hold the final result.
 var obj = {};

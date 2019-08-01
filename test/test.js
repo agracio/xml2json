@@ -3,18 +3,13 @@ var path = require('path');
 var parser = require(__dirname + '/../src');
 var assert = require('assert');
 
-var Code = require('code');
-var Lab = require('lab');
-
-
-// Test shortcuts
-
-var lab = exports.lab = Lab.script();
-var expect = Code.expect;
-var describe = lab.describe;
-var it = lab.test;
+const { expect } = require('@hapi/code');
+const Lab = require('@hapi/lab');
+const lab = exports.lab = Lab.script();
+const { after, before, describe, it } = exports.lab = Lab.script();
 
 var internals = {};
+
 
 
 describe('xml2json', function () {
