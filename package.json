@@ -10,14 +10,13 @@
         "reponame": "xml2json",
         "build": true
     },
-    "version": "2019.10.154",
+    "version": "2019.10.160",
     "description": "Converts xml to json and vice-versa, using node-expat.",
     "repository": "git://github.com/buglabs/node-xml2json.git",
     "license": "MIT",
     "main": "index",
     "scripts": {
-        "test": "grunt && lab -I globalThis -v -t 93  test/test.js",
-        "test-wron": "grunt && lab -I globalThis --a code -v -t 93  test/test.js"
+        "test": "grunt && lab -I globalThis --a @hapi/code -v -t 93  test/test.js"
     },
     "dependencies": {
         "@hapi/hoek": "^8.1.0",
