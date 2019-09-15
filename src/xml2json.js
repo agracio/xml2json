@@ -150,7 +150,7 @@ module.exports = function (xml, _options) {
     ancestors = [];
     currentElementName = null;
 
-    var schema = {
+    var schema = joi.object( {
         object: joi.boolean().default(false),
         reversible: joi.boolean().default(false),
         coerce: joi.alternatives([joi.boolean(), joi.object()]).default(false),
@@ -158,9 +158,9 @@ module.exports = function (xml, _options) {
         trim: joi.boolean().default(true),
         arrayNotation: joi.alternatives([joi.boolean(), joi.array()]).default(false),
         alternateTextNode: [joi.boolean().default(false), joi.string().default(false)]
-    };
-    var validation = joi.validate(_options, schema);
-    hoek.assert(validation.error === null, validation.error);
+    });
+    var validation = schema.validate(_options);
+    hoek.assert(validation.error === undefined, validation.error);
     options = validation.value;
     options.forceArrays = {};
     if (Array.isArray(options.arrayNotation)) {
