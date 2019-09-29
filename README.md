@@ -11,7 +11,7 @@
 
 
  
-# Converts xml to json and vice-versa, using node-expat. v2019.10.184  
+# Converts xml to json and vice-versa, using node-expat. v2019.10.187  
 
   
 
@@ -39,9 +39,10 @@ https://nodejs.org/en/download/package-manager/
 
                         
 [//]: #@corifeus-header:end
-# Simple XML2JSON Parser
 
-## The info about the fork
+## Simple XML2JSON Parser
+
+### The info about the fork
 
 The https://github.com/buglabs/node-xml2json/pull/180 maintainers (`buglabs`, no e-mail, no GitHub) are not responsive. So, I created a small fix, that works perfectly, it is named as `p3x-xml2json`. It is the same as the original, just works with NodeJs 12.  
 I am open to merge pull requests. I maintain. Please free, to contact me.
@@ -160,7 +161,7 @@ All my domains ([patrikx3.com](https://patrikx3.com) and [corifeus.com](https://
 
 ---
   
-[**P3X-XML2JSON**](https://pages.corifeus.com/xml2json) Build v2019.10.184 
+[**P3X-XML2JSON**](https://pages.corifeus.com/xml2json) Build v2019.10.187 
 
 [![Donate for Corifeus / P3X](https://img.shields.io/badge/Donate-Corifeus-003087.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QZVM4V6HVZJW6)  [![Contact Corifeus / P3X](https://img.shields.io/badge/Contact-P3X-ff9900.svg)](https://www.patrikx3.com/en/front/contact) [![Like Corifeus @ Facebook](https://img.shields.io/badge/LIKE-Corifeus-3b5998.svg)](https://www.facebook.com/corifeus.software) 
 
