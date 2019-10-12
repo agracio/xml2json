@@ -5,22 +5,25 @@
         "publish": true,
         "type": "p3x",
         "code": "Done",
-        "nodejs": "v12.10.0",
+        "nodejs": "v12.11.1",
         "opencollective": false,
         "reponame": "xml2json",
         "build": true
     },
-    "version": "2019.10.187",
+    "version": "2019.10.191",
     "description": "Converts xml to json and vice-versa, using node-expat.",
-    "repository": "git://github.com/buglabs/node-xml2json.git",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/patrikx3/xml2json.git"
+    },
     "license": "MIT",
     "main": "index",
     "scripts": {
         "test": "grunt && lab -I globalThis --a @hapi/code -v -t 93  test/test.js"
     },
     "dependencies": {
-        "@hapi/hoek": "^8.2.5",
-        "@hapi/joi": "^16.1.4",
+        "@hapi/hoek": "^8.3.0",
+        "@hapi/joi": "^16.1.7",
         "node-expat": "^2.3.18"
     },
     "bin": {
@@ -28,8 +31,8 @@
     },
     "devDependencies": {
         "@hapi/code": "^6.0.0",
-        "@hapi/lab": "^20.3.2",
-        "corifeus-builder": "^2019.10.246"
+        "@hapi/lab": "^20.4.0",
+        "corifeus-builder": "^2019.10.249"
     },
     "engines": {
         "node": ">=10.16.0"
