@@ -1,5 +1,5 @@
 
-@license p3x-xml2json v2020.4.119
+@license p3x-xml2json v2020.4.130
   
 Converts xml to json and vice-versa, using node-expat.
 
