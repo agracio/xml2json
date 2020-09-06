@@ -10,7 +10,7 @@
         "reponame": "xml2json",
         "build": true
     },
-    "version": "2020.10.105",
+    "version": "2020.10.108",
     "description": "Converts xml to json and vice-versa, using node-expat.",
     "repository": {
         "type": "git",
@@ -22,7 +22,7 @@
         "test": "grunt && lab -I globalThis --a @hapi/code -v -t 93  test/test.js"
     },
     "dependencies": {
-        "@hapi/hoek": "^9.0.4",
+        "@hapi/hoek": "^9.1.0",
         "@hapi/joi": "^17.1.1",
         "node-expat": "^2.3.18"
     },
@@ -32,7 +32,7 @@
     "devDependencies": {
         "@hapi/code": "^8.0.2",
         "@hapi/lab": "^23.0.0",
-        "corifeus-builder": "^2020.10.105"
+        "corifeus-builder": "^2020.10.109"
     },
     "engines": {
         "node": ">=12.13.0"
