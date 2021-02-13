@@ -32,7 +32,7 @@
     "devDependencies": {
         "@hapi/code": "^8.0.2",
         "@hapi/lab": "^24.1.0",
-        "corifeus-builder": "^2021.4.102"
+        "corifeus-builder": "^2021.4.115"
     },
     "engines": {
         "node": ">=12.13.0"
