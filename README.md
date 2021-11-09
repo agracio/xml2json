@@ -11,19 +11,14 @@
 
 
 
-# Converts xml to json and vice-versa, using node-expat v2021.10.144
+# Converts xml to json and vice-versa, using node-expat v2021.10.150
 
 
 
 **Bugs are evident™ - MATRIX️**
     
 
-### NodeJs version requirement
-```txt
->=12.13.0
-```
-
-### Built on NodeJs
+### Built and supported on NodeJs version
 ```txt
 v16.13.0
 ```
@@ -158,7 +153,7 @@ All my domains ([patrikx3.com](https://patrikx3.com) and [corifeus.com](https://
 
 ---
 
-[**P3X-XML2JSON**](https://corifeus.com/xml2json) Build v2021.10.144
+[**P3X-XML2JSON**](https://corifeus.com/xml2json) Build v2021.10.150
 
 [![Donate for Corifeus / P3X](https://img.shields.io/badge/Donate-Corifeus-003087.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QZVM4V6HVZJW6)  [![Contact Corifeus / P3X](https://img.shields.io/badge/Contact-P3X-ff9900.svg)](https://www.patrikx3.com/en/front/contact) [![Like Corifeus @ Facebook](https://img.shields.io/badge/LIKE-Corifeus-3b5998.svg)](https://www.facebook.com/corifeus.software)
 
