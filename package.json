@@ -5,12 +5,12 @@
         "publish": true,
         "type": "p3x",
         "code": "Done",
-        "nodejs": "v16.13.1",
+        "nodejs": "v16.13.2",
         "opencollective": false,
         "reponame": "xml2json",
         "build": true
     },
-    "version": "2022.4.102",
+    "version": "2022.4.106",
     "description": "Converts xml to json and vice-versa, using node-expat",
     "repository": {
         "type": "git",
@@ -23,16 +23,16 @@
     },
     "dependencies": {
         "@hapi/hoek": "^9.2.1",
-        "joi": "^17.5.0",
+        "joi": "^17.6.0",
         "node-expat": "^2.4.0"
     },
     "bin": {
         "p3x-xml2json": "bin/xml2json"
     },
     "devDependencies": {
-        "@hapi/code": "^8.0.5",
-        "@hapi/lab": "^24.5.0",
-        "corifeus-builder": "^2022.4.101"
+        "@hapi/code": "^8.0.6",
+        "@hapi/lab": "^24.5.1",
+        "corifeus-builder": "^2022.4.105"
     },
     "engines": {
         "node": ">=12.13.0"
