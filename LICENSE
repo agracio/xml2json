@@ -1,11 +1,11 @@
 
-@license p3x-xml2json v2022.4.129
+@license p3x-xml2json v2023.10.108
   
 Converts xml to json and vice-versa, using node-expat
 
 https://corifeus.com/xml2json
 
-Copyright (c) 2022 Patrik Laszlo / P3X / Corifeus and contributors.
+Copyright (c) 2023 Patrik Laszlo / P3X / Corifeus and contributors.
 
 MIT License
 
