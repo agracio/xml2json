@@ -5,12 +5,12 @@
         "publish": true,
         "type": "p3x",
         "code": "Done",
-        "nodejs": "v22.13.0",
+        "nodejs": "v22.13.1",
         "opencollective": false,
         "reponame": "xml2json",
         "build": true
     },
-    "version": "2025.4.119",
+    "version": "2025.4.122",
     "description": "🔁 Converts xml to json and vice-versa, using node-expat",
     "repository": {
         "type": "git",
@@ -33,7 +33,7 @@
     "devDependencies": {
         "@hapi/code": "^9.0.3",
         "@hapi/lab": "^26.0.0",
-        "corifeus-builder": "^2025.4.128"
+        "corifeus-builder": "^2025.4.135"
     },
     "engines": {
         "node": ">=12.13.0"
