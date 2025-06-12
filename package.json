@@ -10,7 +10,7 @@
         "reponame": "xml2json",
         "build": true
     },
-    "version": "2025.4.122",
+    "version": "2025.4.123",
     "description": "🔁 Converts xml to json and vice-versa, using node-expat",
     "repository": {
         "type": "git",
@@ -24,7 +24,7 @@
     "dependencies": {
         "@hapi/hoek": "^11.0.7",
         "joi": "^17.13.3",
-        "nan": "^2.22.0",
+        "nan": "^2.22.2",
         "node-expat": "^2.4.1"
     },
     "bin": {
