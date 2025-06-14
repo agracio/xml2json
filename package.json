@@ -5,7 +5,7 @@
         "publish": true,
         "type": "p3x",
         "code": "Done",
-        "nodejs": "v22.13.1",
+        "nodejs": "v22.16.0",
         "opencollective": false,
         "reponame": "xml2json",
         "build": true
