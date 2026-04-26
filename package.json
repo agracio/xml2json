@@ -11,7 +11,7 @@
         "reponame": "xml2json",
         "build": true
     },
-    "version": "2026.4.124",
+    "version": "2026.4.125",
     "description": "🔁 Converts xml to json and vice-versa, using node-expat",
     "repository": {
         "type": "git",
@@ -38,6 +38,12 @@
     },
     "engines": {
         "node": ">=12.13.0"
+    },
+    "resolutions": {
+        "nan": "^2.26.2"
+    },
+    "overrides": {
+        "nan": "^2.26.2"
     },
     "homepage": "https://corifeus.com/xml2json"
 }
