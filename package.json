@@ -3,7 +3,7 @@
     "publishConfig": {
         "access": "public"
     },
-    "version": "2026.6.158",
+    "version": "2026.6.160",
     "description": "🔁 Converts xml to json and vice-versa, using node-expat",
     "repository": {
         "type": "git",
@@ -18,7 +18,7 @@
         "@hapi/hoek": "^11.0.7",
         "joi": "^18.2.1",
         "nan": "^2.27.0",
-        "node-expat": "npm:@agracio/node-expat@^2.4.4"
+        "node-expat": "npm:ag-node-expat@^2.4.5"
     },
     "bin": {
         "@agracio/xml2json": "bin/xml2json"
@@ -28,10 +28,10 @@
         "@hapi/lab": "^26.0.1"
     },
     "engines": {
-        "node": ">=12.13.0"
+        "node": ">= 18"
     },
     "homepage": "https://corifeus.com/xml2json",
     "allowScripts": {
-        "@agracio/node-expat@2.4.4": true
+        "ag-node-expat@2.4.5": true
     }
 }
