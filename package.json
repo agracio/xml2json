@@ -1,5 +1,8 @@
 {
     "name": "@agracio/xml2json",
+    "publishConfig": {
+        "access": "public"
+    },
     "version": "2026.4.157",
     "description": "🔁 Converts xml to json and vice-versa, using node-expat",
     "repository": {
