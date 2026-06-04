@@ -8,9 +8,9 @@ on:
     schedule:
         - cron: '0 0 1 * *'
     push:
-        branches: [ master ]
+        branches: [ main ]
     pull_request:
-        branches: [ master ]
+        branches: [ main ]
 
 jobs:
     build:
@@ -29,5 +29,5 @@ jobs:
               with:
                   node-version: ${{ matrix.node-version }}
             - run: npm i -g grunt-cli
-            - run: npm install
+            - run: npm install --legacy-peer-deps
             - run: npm run test
