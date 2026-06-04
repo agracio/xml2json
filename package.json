@@ -1,49 +1,31 @@
 {
-    "name": "p3x-xml2json",
-    "corifeus": {
-        "icon": "fas fa-exchange-alt",
-        "prefix": "p3x-",
-        "publish": true,
-        "type": "p3x",
-        "code": "Done",
-        "nodejs": "v24.14.1",
-        "opencollective": false,
-        "reponame": "xml2json",
-        "build": true
-    },
-    "version": "2026.4.130",
+    "name": "@agracio/xml2json",
+    "version": "2026.4.157",
     "description": "🔁 Converts xml to json and vice-versa, using node-expat",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/patrikx3/xml2json.git"
+        "url": "git+https://github.com/agracio/xml2json.git"
     },
     "license": "MIT",
     "main": "index",
     "scripts": {
-        "test": "grunt && lab -I globalThis --a @hapi/code -v -t 93  test/test.js"
+        "test": "lab -I globalThis --a @hapi/code -v -t 93  test/test.js"
     },
     "dependencies": {
         "@hapi/hoek": "^11.0.7",
-        "joi": "^18.1.2",
-        "nan": "^2.26.2",
-        "node-expat": "^2.4.1"
+        "joi": "^18.2.1",
+        "nan": "^2.27.0",
+        "node-expat": "npm:@agracio/node-expat@^2.4.3"
     },
     "bin": {
-        "p3x-xml2json": "bin/xml2json"
+        "@agracio/xml2json": "bin/xml2json"
     },
     "devDependencies": {
         "@hapi/code": "^9.0.3",
-        "@hapi/lab": "^26.0.1",
-        "corifeus-builder": "^2026.4.154"
+        "@hapi/lab": "^26.0.1"
     },
     "engines": {
         "node": ">=12.13.0"
-    },
-    "resolutions": {
-        "nan": "^2.26.2"
-    },
-    "overrides": {
-        "nan": "^2.26.2"
     },
     "homepage": "https://corifeus.com/xml2json"
 }

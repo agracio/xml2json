@@ -9,3 +9,6 @@ agents/
 .codex/
 CLAUDE.md
 AGENTS.md
+*.tgz
+gruntfile.js
+LICENSE.old
