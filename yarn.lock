@@ -1099,10 +1099,10 @@ neo-async@^2.6.2:
   resolved "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-"node-expat@npm:@agracio/node-expat@^2.4.3":
-  version "2.4.3"
-  resolved "https://registry.npmjs.org/@agracio/node-expat/-/node-expat-2.4.3.tgz"
-  integrity sha512-AU3NYxqwFvuH/e2+9H1gu9t4iBli1RLBAFvgiAkjeiX6ZszOx+qwXFkMU2Svgw4Vwwn7z/yzj/8CvyjuetT4cA==
+"node-expat@npm:@agracio/node-expat@^2.4.4":
+  version "2.4.4"
+  resolved "https://registry.npmjs.org/@agracio/node-expat/-/node-expat-2.4.4.tgz"
+  integrity sha512-0ZgYAqoDOLSk0Qc+LF82iWV5IrpsIvyvAxpBQ13fV4SSFX+oJ2mkzN8ssxhx//88iE+A8wrKwgdWMZKD4kMZQA==
   dependencies:
     nan "^2.27.0"
     node-gyp "^12.3.0"
